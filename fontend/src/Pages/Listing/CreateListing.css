@@ -1,0 +1,78 @@
+/* CreateListing.css */
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+  
+
+  
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+  
+  input[type="text"],
+  input[type="number"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .createbutton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+  }
+  .cancelbutton{
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .createbutton:hover {
+    background-color: #0056b3;
+  }
+  
+  .cancelbutton[type="button"] {
+    background-color: #6c757d;
+  }
+  
+  .cancelbutton[type="button"]:hover {
+    background-color: #5a6268;
+  }
+  
+  .amenities {
+    margin-bottom: 20px;
+  }
+  
+  .amenity-input {
+    margin-bottom: 10px;
+  }
+  

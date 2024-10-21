@@ -1,0 +1,51 @@
+h3{
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.table:nth-child(1){
+    padding: 1px 10px 10px 10px;
+   
+
+}
+
+.links_1{
+    width: auto;
+    float: left;
+    padding: 10px 10px;
+    border-bottom: 1px solid black;
+}
+
+.links_1:hover{
+    color: red;  
+}
+
+.list{
+    display: block;
+    justify-content: space-between;
+    float: left;
+    column-count: 4;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 250px;
+    
+   
+}
+
+.list ul{
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 90px;
+}
+.list_name{
+    display:block;
+    font-weight: bold;
+    text-overflow: ellipsis;
+}
+
+.list_names{
+    display: block;
+    text-overflow: ellipsis;
+}
+

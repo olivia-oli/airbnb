@@ -1,0 +1,497 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ebebeb;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+  
+  
+.left {
+    display: flex;
+    align-items: center;
+}
+  
+.header-logo {
+    height: 32px;
+    margin-right: 5px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-weight: 400;
+    margin: 0 0 0 150px;
+    cursor: pointer;
+}
+.text p:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 99px;
+  padding: 5px 10px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.Become-host{
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-left: 50px; 
+}
+
+.language-icon{
+    
+   margin-top: 10px;
+    
+}
+.listing-icons{
+  padding-left: 900px;
+}
+
+.large-image {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+  width: 97%;
+  margin: 50px;
+  
+}
+
+.large-image img {
+  width: 100%; 
+  height: 100%;
+  border-radius: 8px;
+}
+
+.thumbnails {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px; 
+  position: relative;
+}
+
+.thumbnails img {
+  width: 100px;
+  height: auto;
+  margin: 5px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  transition: transform 0.2s;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.thumbnails img:hover {
+  transform: scale(1.05);
+  border-color: #333;
+}
+
+.thumb{
+  position: relative; 
+  width: 100%; 
+  height: 100%; 
+}
+
+.photos-button {
+position: absolute;
+bottom: 10px; 
+right: 10px; 
+background-color: #fff; 
+color: #000;
+border: none;
+padding: 10px 15px;
+cursor: pointer;
+border-radius: 20px;
+font-size: 14px;
+display: flex;
+align-items: center;
+gap: 5px; 
+transition: background-color 0.3s ease;
+}
+
+.photos-button:hover {
+  background-color: rgba(5, 60, 14, 0.8);
+}
+
+.grid-icon {
+  font-size: 18px; 
+}
+
+ /*sidebox info*/
+.side-box {
+  padding: 20px;
+  border: 1px solid #e7e7e7;
+  border-radius: 12px;
+  max-width: 35%;
+  max-height: fit-content;
+  margin-left: 20px;
+}
+  
+.left-side h3 {
+  margin: 0 0 5px 0;
+  font-size: 24px;
+}
+  
+.left-side p {
+  color: #717171;
+  font-size: 16px;
+}
+  
+.Left-fields {
+  margin-top: 20px;
+}
+  
+.checkin-checkout {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+  
+.date-input {
+  padding: 10px;
+  width: 120px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+  
+.left-selection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 95%; 
+}
+  
+.left-selection label {
+  font-size: 16px;
+  font-weight: 600;
+}
+  
+.left-counter {
+  display: flex;
+  align-items: center;
+}
+  
+.left-button {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+  color: #717171;
+  margin: 0 10px;
+}
+  
+.left-button:hover {
+  background-color: #f7f7f7;
+}
+  
+.left-count {
+  font-size: 18px;
+}
+  
+
+.lift-button {
+  background-color: #ff385c;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+  
+.lift-button:hover {
+  background-color: #ff6478;
+}
+  
+  
+.money {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 15px;
+}
+  
+.money li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+  
+.charge {
+  font-size: 14px;
+  color: #717171;
+  margin-top: 10px;
+}
+  
+
+.amount {
+  margin: 15px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+  
+ 
+.report{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+  
+.flag-icon {
+  width: 20px; 
+  height: 20px;
+  margin-right: 5px; 
+}
+  
+.links {
+  color: #007A83;
+  text-decoration: underline;
+  font-size: 14px;
+  cursor: pointer;
+  max-height: fit-content;
+}
+  
+.links:hover {
+  color: #005B5C; 
+}
+
+
+
+/*left handside*/
+.listing-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.listing-description {
+  margin: 20px 0;
+  border-top: 1px solid lightgrey;
+}
+.host-info {
+  width: 60%;
+}
+
+.contain {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  margin: 20px; 
+}
+
+.content {
+  flex: 1; 
+  margin-right: 20px; 
+}
+
+.image-contain {
+  flex-shrink: 0; 
+}
+
+.person {
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%;   
+}
+
+
+.features-container {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; 
+  padding: 20px; 
+  background-color: #f7f7f7; 
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.feature {
+  display: flex;
+  align-items: center; 
+  /* background-color: #fff; */
+  padding: 15px; 
+  border-radius: 8px; 
+  /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);  */
+}
+
+.feature span {
+  font-size: 18px;
+}
+
+.feature p {
+  font-size: 14px;
+  color: #555; 
+  
+}
+.where-you-sleep {
+  margin: 30px 0;
+}
+
+.bedroom img {
+  width: 40%;
+  border-radius: 10px;
+}
+.amenities-container {
+  background-color: #fff; 
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.amenities-container h2 {
+  margin: 0 0 15px; 
+  font-size: 24px; 
+  font-weight: bold;
+}
+
+.amenities-list {
+  gap: 15px;
+  column-count: 2; 
+}
+
+.amenity-item {
+  display: flex;
+  align-items: center;
+  padding: 10px; 
+  background-color: #fff; 
+  border-radius: 8px; 
+  
+}
+.perNight{
+  padding-left: 550px;
+}
+.amenity-name {
+  margin-left: 8px; 
+  font-size: 16px; 
+  color: #333; 
+}
+
+.show-all-amenities-button {
+  margin-top: 20px; 
+  padding: 10px 20px; 
+  background-color: #fff; 
+  color: #000; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  display: flex; 
+  align-items: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.show-all-amenities-button:hover {
+  background-color: green; 
+}
+.calendar-section {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+
+
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.calendar-header h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+.calendars {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.month {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.days span {
+  font-weight: bold;
+}
+
+.dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  gap: 5px;
+}
+
+.dates span {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.empty {
+  visibility: hidden;
+}
+
+.selected {
+  background: #fff;
+  color: white;
+  border-radius: 50%;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.clear-dates {
+  background: #ff385c;
+  border: none;
+  cursor: pointer;
+}
+.moonth-icon {
+  justify-content: flex-start;
+}
+

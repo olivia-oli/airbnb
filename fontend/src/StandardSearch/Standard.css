@@ -1,0 +1,82 @@
+.standard-card {
+    width: 1360px;
+    height: 260px;
+    border: 1px solid #ccc; /* Optional border for the card */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card-content {
+    display: flex;
+    height: 100%; /* Ensures the content stretches the full height */
+}
+
+.card-image {
+    width: 300px;
+    height: 200px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+}
+
+.text-content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column; /* Stacks text vertically */
+    justify-content: space-between; /* Distributes space evenly */
+}
+
+
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Aligns details to the left */
+}
+
+.amenities {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.details span, .amenities span {
+    margin-right: 10px;
+}
+
+.sooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto; /* Pushes footer to the bottom */
+}
+
+.rating {
+    font-weight: bold;
+}
+
+.price {
+    color: #d9534f; /* Example color for price */
+    font-size: 1.2em; /* Slightly larger font for price */
+}
+.accountbuttons{
+    display: flex;
+}
+
+.accountbuttons {
+  display: flex;
+  flex-wrap: wrap; /* Allow buttons to wrap if necessary */
+  gap: 10px; /* Space between buttons */
+}
+
+.accountbuttons button {
+  padding: 10px 20px; /* Vertical and horizontal padding */
+  border: none; /* Remove default border */
+  border-radius: 25px; /* Make the button oval */
+  background-color: #fff; 
+  color: #000; /* Text color */
+  font-size: 14px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  /* transition: background-color 0.3s; */
+}
+
+.accountbuttons button:hover {
+  background-color: #2980b9; /* Darker shade on hover */
+}

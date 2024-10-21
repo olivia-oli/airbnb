@@ -1,0 +1,36 @@
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.banner-image {
+    flex: 9;
+    max-width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn {
+  position: absolute; 
+  right: 50%;
+  top:110%; /*move to I am flexable button to the top*/
+  z-index: 2;
+  font-size: 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: aqua;
+}
+.btn:hover {
+    background-color: rgb(8, 175, 197);
+}
+
+.bottom-right{
+    position: absolute;
+    right: 50%;
+    top:106%; /*move to words button to the top*/
+    color: white;    
+}

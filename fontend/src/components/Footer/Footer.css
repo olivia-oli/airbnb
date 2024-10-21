@@ -1,0 +1,48 @@
+
+.links{
+    display: block;
+    justify-content: space-between;
+    float: left;
+    column-count: 4;
+    padding-top: 50px;
+    padding-left: 50px;
+    background-color: #F9FAFB;
+    
+}
+
+.links ul{
+    list-style-type: none;
+    padding-right: 90px;
+}
+
+.botton{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid gray;
+    padding: 20px;
+    float: left;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    padding-left: 780px ;
+    
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.Term span{
+    margin-right: 1rem;
+}
+
+.Term a{
+    margin-left: 1rem;
+
+}
+

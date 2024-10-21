@@ -1,0 +1,44 @@
+.text-divider {
+     position: relative;
+     left: 5%;
+ }
+ 
+ .middle-section {
+     display: flex;
+     justify-content: space-between; /* Space between items */
+     align-items: center; /* Center items vertically */
+     margin: 20px; /* Add margin around the section */
+ }
+ 
+ .experience-item {
+     position: relative; /* Positioning for the text */
+     flex: 1; /* Allow items to grow */
+     margin: 0 10px; /* Spacing between items */
+ }
+ 
+ .experience-image {
+     width: 100%; /* Make the image take the full width of its container */
+     height: auto; /* Maintain aspect ratio */
+     border-radius: 20px; /* Optional: rounded corners */
+ }
+ 
+ .Sub-left, .Sub-right {
+     position: absolute; /* Position text over images */
+     bottom: 20px; /* Adjust vertical positioning */
+     left: 20px; /* Adjust horizontal positioning */
+     color: #fff;
+ }
+ 
+ .sub-button {
+     background-color: transparent; /* Button background */
+     color: #fff; /* Button text color */
+     border: 2px solid #fff; /* Button border */
+     border-radius: 5px; /* Rounded corners */
+     padding: 10px 20px; /* Padding inside button */
+     cursor: pointer; /* Pointer cursor */
+ }
+ 
+ .sub-button:hover {
+     background-color: red; /* Change background on hover */
+ }
+ 
